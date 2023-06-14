@@ -21,3 +21,12 @@ const returnFirstTwoDrivers = function (drivers) {
     return response;
   }
   
+  const fareTripler = (fareMultiplier, response)=>{
+    response = fareMultiplier*3
+    return response;
+  }
+
+
+  const selectDifferentDrivers = (drivers, selectingDrivers) =>{
+    return selectingDrivers(drivers)
+  }
